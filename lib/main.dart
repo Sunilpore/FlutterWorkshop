@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ws_trail/test_samples/ui_test/ui_test.dart';
+
+import 'method_channel/battery_detector_page.dart';
 
 void main() {
   runApp(LaunchApp());
@@ -46,7 +47,7 @@ class LaunchApp extends StatelessWidget {
     return MaterialApp(
       title: appTitle,
       home: Scaffold(
-        body: UITestWidget(title: appTitle, message: "test"),
+        body: BatteryUIPage(),
       ),
     );
   }

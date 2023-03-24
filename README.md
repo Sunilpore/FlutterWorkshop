@@ -2,10 +2,11 @@
 Basic examples of Workshop examples
 
 
-# Test Cases
-1. Unit Testing
-   - Use Mockito,test, Runner packages for Unit Testing
-   - Create sample api mock test examples   
+# Embedded Flutter Enigine
+  - Launch Default Native Android Page on start of an application
+  - Navigate from Native activity page to Flutter Widget 
 
-2. Test Widgets
-   - Test Widget testing
+
+# Method Channel Notification
+1. Battery Level Percentage
+   - Detect Battery percentage and show inside flutter widget

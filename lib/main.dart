@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:ws_trail/test_samples/ui_test/ui_test.dart';
+
+import 'home_widget.dart';
+
 
 void main() {
   runApp(LaunchApp());
@@ -46,7 +48,7 @@ class LaunchApp extends StatelessWidget {
     return MaterialApp(
       title: appTitle,
       home: Scaffold(
-        body: UITestWidget(title: appTitle, message: "test"),
+        body: HomeWidget(),
       ),
     );
   }
